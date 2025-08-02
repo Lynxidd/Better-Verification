@@ -1,0 +1,8 @@
+name: Better-Verification
+version: '0.0.1-DEV-SNAPSHOT'
+main: me.lynxid.betterVerification.BetterVerification
+api-version: '1.21'
+prefix: Better-Verification
+load: STARTUP
+authors: [ Lynxid ]
+website: https://github.com/Lynxidd

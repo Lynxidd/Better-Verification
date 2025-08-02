@@ -1,0 +1,34 @@
+# This is the langauge file for the plugin! Please do not change this, it will reset when the server reloads.
+log-signature: "[Better-Verification] "
+startup-messages:
+  discord-start: "Discord linked and ready!"
+  language-start: "language file loaded!"
+  start-final: "Better Verification has started!"
+error-messages:
+  log-not-configured: "Channel id for server log is missing! Please check the config.yml!"
+  branding-left-empty-A: "- ERROR \nThe '**branding**' option has been left empty! It has been reset to default, if you intended to add custom branding please ensure you place it in the right spot! This option is found in the ```config.yml```"
+  branding-left-empty-B: "The 'branding' option has been left empty! It has been reset to default, if you intended to add custom branding please ensure you place it in the right spot! This option is found in the 'config.yml'"
+  status-text-left-empty-A: "- ERROR \nThe '**status-text**' option has been left empty! Please check the ```config.yml```"
+  status-text-left-empty-B: "The 'status-text' option has been left empty! Please check the 'config.yml'"
+  status-text-too-long-A: "- ERROR \nThe '**status-text**' option is over 128 characters! Please check the ```config.yml```"
+  status-text-too-long-B: "The 'status-text' option is over 128 characters! Please check the 'config.yml'"
+  status-type-invalid-A: "- ERROR \nThe item in the '**status-type**' option is not valid! This range is 0-4! Please check the ```config.yml```"
+  status-type-invalid-B: "The item in the 'status-type' option is not valid! This range is 0-4! Please check the 'config.yml'"
+  language-key-left-empty-A: "- ERROR \nThe '**language**' option has been left empty! It has been reset to default, if you intended to use a language file that is not 'en_US' please make sure that you input the file key correctly! This option is found in the ```config.yml```"
+  language-key-left-empty-B: "The 'language' option has been left empty! It has been reset to default, if you intended to use a language file that is not 'en_US' please make sure that you input the file key correctly! This option is found in the 'config.yml'"
+  language-key-invalid-A: "- ERROR \nThe '**language**' option is invalid! It has been reset to default, if you intended to use a language file that is not '**en_US.yml**' please make sure that the file exists and is in the right directory! This option is found in the ```config.yml``` The language directory is located at ```<your server's main folder>/plugins/Better-Verification/languages/```"
+  language-key-invalid-B: "The 'language' option is invalid! It has been reset to default, if you intended to use a language file that is not 'en_US.yml' please make sure that the file exists and is in the right directory! This option is found in the 'config.yml' The language directory is located at '<your server's main folder>/plugins/Better-Verification/languages/'"
+  default-language-file-missing-A: "- ERROR \nThe 'en_US.yml' file was missing! If you renamed or modified the file please know that the en_US file will be replaced every restart to match the defaults. If you would like to add a custom file please ensure it is separate file and that it matches the The '**language**' option. This option is found in the ```config.yml``` The language directory is located at ```<your server's main folder>/plugins/Better-Verification/languages/```"
+  default-language-file-missing-B: "The 'en_US.yml' file was missing! If you renamed or modified the file please know that the en_US file will be replaced every restart to match the defaults. If you would like to add a custom file please ensure it is separate file and that it matches the The 'language' option. This option is found in the 'config.yml' The language directory is located at '<your server's main folder>/plugins/Better-Verification/languages/'"
+  bot-channel-left-empty-A: "- ERROR \nThe '**bot-channel**' configuration has been left empty! This is a required field for bot functionality! Please make sure that you put a channel ID! This configuration is found in the ```config.yml```"
+  bot-channel-left-empty-B: "The 'bot-channel' configuration has been left empty! This is a required field for bot functionality! Please make sure that you put a channel ID! This configuration is found in the 'config.yml'"
+  bot-channel-invalid-A: "- ERROR \nThe string in the '**bot-channel**' configuration is not a registered channel ID! This is a required field for bot functionality! Please make sure that you put the correct channel ID! This configuration is found in the ```config.yml```"
+  bot-channel-invalid-B: "The string in the 'bot-channel' configuration is not a registered channel ID! This is a required field for bot functionality! Please make sure that you put the correct channel ID! This configuration is found in the 'config.yml'"
+server-facing-messages:
+  startup: "- INFO \nDiscord bot connected!"
+
+user-facing-messages:
+  onboarding: "\nYou have just completed the first step to verify your account! \nLet's move on to the next step! ## Step 2: Please run the following command ```/link <Minecraft Username```"
+  username-input-too-long: "- Warning\n You have sent a string that was too long! Minecraft usernames can only be 16 characters long. Please check your spelling and try again! You sent the following string that is over 16 characters:"
+  username-input-too-short: "- Warning\n You have sent a string that was too short! Minecraft usernames must be 3 or more characters long. Please check your spelling and try again! You sent the following string that is under 3 characters:"
+

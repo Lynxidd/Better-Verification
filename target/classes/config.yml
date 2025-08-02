@@ -1,0 +1,20 @@
+# Discord Bot Required Settings:
+  token: '<Put your Discord Bot Token here!>'
+  server-id: "<Put your Discord Server ID here!>"
+  log-channel: "<Put the ID for your Discord Server's log channel here!>"
+  bot-channel: "<Put the ID for your Discord Server's bot commands channel here!>"
+  admin-ping-role: "<Put the role ID for your ADMIN role here!>"
+# Message Configuration
+  branding: "Better Verification" # Branding appears at the top of each message sent by the Discord bot.
+  # Message Toggles
+  startup-message: True # This toggles whether the bot will send a formatted message on enable.
+# Status Configuration
+  status-text: "Run /verify to get started!"
+  # Status Text - This is the text for the bot's status! Place any text here. 128-Character limit.
+  status-type: 0
+  # Status Type - This is a range from 0-4 defining the formatting of the bot's status.
+  # 0 - <Plain text status>
+  # 1 - Playing <your text>
+  # 2 - Watching <your text>
+  # 3 - Listening to <your text>
+  # 4 - Competing <your text>
